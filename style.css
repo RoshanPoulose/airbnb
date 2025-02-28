@@ -517,8 +517,12 @@ footer{
  .infoh1{
      text-overflow: ellipsis;
      white-space: nowrap; 
-    overflow-x: hidden;
- }      
+     overflow-x: hidden;
+     
+ }   
+ .infoh1::-webkit-scrollbar{
+    display: none;
+ }   
  .c{
     margin-bottom: 6px;
  }
@@ -1044,7 +1048,7 @@ footer{
         margin: 51px 0px 25px 0px;
     }     
     #thecopy{
-        padding: 25px 0px 24px 0px;
+        padding: 25px 0px 23px 0px;
         
     }
     .hai{
@@ -1053,6 +1057,7 @@ footer{
     .support{
         padding: 48px 0px;
        ;
+     
      }
      .la{
         display: flex;
@@ -1114,7 +1119,7 @@ footer{
        
     }
     #thecopy{
-        padding: 24px 40px;
+        padding: 23px 40px;
     }
     .la{
         margin: 0px; 
